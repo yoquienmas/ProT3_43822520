@@ -1,0 +1,7 @@
+- admin: 
+admin@gmail.com 
+admin123
+
+-cliente: 
+cliente@gmail.com 
+cliente123
