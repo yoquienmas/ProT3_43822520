@@ -219,3 +219,31 @@ img {
     background-color: #fffdf6;
 }
 
+.btnUser {
+    background-color: #e2a42d !important; /* tu color personalizado */
+    color: white !important;
+    border: none !important;
+    transition: background-color 0.3s ease;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
+.mi-enlace {
+    color: #e2a42d;           /* color naranja */
+    font-weight: bold;        /* negrita */
+    text-decoration: none;    /* sin subrayado */
+    transition: color 0.3s ease;
+}
+
+.mi-enlace:hover {
+    color: #c17f1d;           /* color naranja oscuro al pasar mouse */
+    text-decoration: underline; /* subrayado al hover */
+    cursor: pointer;
+}
+
