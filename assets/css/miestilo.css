@@ -1,0 +1,221 @@
+body {
+    background-color: #fffff8; /* un tono más cálido y suave */
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+.descripcion-section {
+    background-color: #fff8e1;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.descripcion {
+    font-size: 1.2rem;
+    color: #5c3a00;
+    line-height: 1.7;
+    font-style: italic;
+    font-weight: 500;
+    font-family: 'Georgia', serif;
+}
+
+.sombra-carousel {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+    border: 5px solid #FFDA94;
+    border-radius: 15px;
+    object-fit: cover;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .descripcion {
+        font-size: 1rem;
+        padding: 10px;
+    }
+}
+
+header {
+    background: linear-gradient(to right, #ffe7b0, #fcd891);
+    color: #5c3a00;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 3px solid #e2a42d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    font-family: 'Georgia', serif;
+}
+
+.titulo-principal {
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 0;
+    color: #a36b00;
+}
+
+
+section {
+    padding: 30px 20px;
+}
+
+.footer {
+    background-color: #FFDA94;
+    color: #7a4f00;
+    padding: 30px 0;
+    text-align: center;
+    border-top: 4px solid #e2a42d;
+    font-family: 'Georgia', serif;
+}
+
+.footer-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid #e2a42d;
+    background-color: #fff;
+    padding: 3px;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+
+.custom-navbar {
+    background-color: #FFDA94;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #7a4f00;
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    background-color: #e2a42d;
+    color: white;
+}
+
+.btn-buscar {
+    background-color: #e2a42d;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-buscar:hover {
+    background-color: #c98b1f;
+    color: white;
+}
+
+.logo {
+    border-radius: 50%;
+    border: 3px solid #fcd891;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 3px solid #FFDA94;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+.formulario-registro {
+    background-color: #fffdf6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.registro-card {
+    width: 100%;
+    max-width: 600px;
+    border: 2px solid #FFDA94;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+.bg-amarillo {
+    background-color: #FFDA94;
+    color: #5c3a00;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    padding: 15px 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #5c3a00;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #e2a42d;
+}
+
+.btn-success {
+    background-color: #e2a42d;
+    border-color: #d19400;
+}
+
+.btn-success:hover {
+    background-color: #c98c00;
+    border-color: #b07b00;
+}
+
+.btn-danger {
+    background-color: #ff6b6b;
+    border-color: #ff4d4d;
+}
+
+.btn-danger:hover {
+    background-color: #e53935;
+    border-color: #d32f2f;
+}
+.login-card {
+    width: 100%;
+    max-width: 500px;
+    border: 2px solid #FFDA94;
+    border-radius: 15px;
+    background-color: #fffdf6;
+}
+
