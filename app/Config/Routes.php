@@ -30,12 +30,16 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('principal', 'Home::index');
-$routes->get('principal', 'Home::index');
+$routes->get('/', 'Home::index');
 $routes->get('quienes_somos', 'Home::quienes_somos');
 $routes->get('acerca_de', 'Home::acerca_de');
 $routes->get('registro', 'Home::registro');
 $routes->get('login', 'Home::login');
+
+/*Rutas del Registro de Usuarios*/
+$routes->get('/registro', 'Usuario_controller::create');
+$routes->post('/enviar-form', 'Usuario_controller::formValidation');
+
 
 /**
  * --------------------------------------------------------------------

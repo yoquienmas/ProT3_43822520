@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/ProT2_43822520/';
+    public $baseURL = 'http://localhost/ProT3_43822520/';
 
     /**
      * --------------------------------------------------------------------------
